@@ -78,6 +78,9 @@
             binarySearch.Add(63);
             binarySearch.Add(67);
             binarySearch.Display();
+            bool result = binarySearch.IfExists(67, binarySearch);
+            Console.WriteLine(result);
+
         }
     }
 }
